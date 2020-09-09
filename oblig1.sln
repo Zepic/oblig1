@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oblig1", "oblig1.csproj", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestbullshitTest", "..\TestbullshitTest\TestbullshitTest.csproj", "{3744B557-CB63-4633-90B3-AD052BEE1233}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kode + unit test", "Kode + unit test", "{7635D226-BE50-42B7-AE70-BF74CD910AA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BDEEF44E-C52D-49C6-8C1A-5825B7FF7DAC} = {7635D226-BE50-42B7-AE70-BF74CD910AA8}
+		{3744B557-CB63-4633-90B3-AD052BEE1233} = {7635D226-BE50-42B7-AE70-BF74CD910AA8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DD6536E9-27E2-4EAA-B8A4-EE23B21A5CCD}
